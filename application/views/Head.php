@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,5 +17,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 -->
 
+<link rel="stylesheet" href="<?= base_url()?>plugins/datatables/dataTables.bootstrap.css">
 
+<style type="text/css">
+  
+  #div1 {
+     overflow:scroll;
+    
+}
+</style>
 </head>

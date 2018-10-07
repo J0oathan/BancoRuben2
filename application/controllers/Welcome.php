@@ -27,4 +27,17 @@ class Welcome extends CI_Controller {
 		$this->load->view('index');
 		$this->load->view('Pie');
 	}
+
+
+	public function form_Cuentas()
+	{	
+
+		$this->load->view('Head');
+		$this->load->view('nav');
+		$this->load->view('navegacion');
+		$this->load->view('Formularios/formulario_Cuenta');
+		$this->load->view('Pie');
+	}
+
+	
 }

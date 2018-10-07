@@ -1,11 +1,37 @@
 
-<script src="<?= base_url()?>plugins/jQuery/jquery-2.2.3.min.js"></script>
-<script src="<?= base_url()?>bootstrap/js/bootstrap.min.js"></script>
-<script src="<?= base_url()?>plugins/chartjs/Chart.min.js"></script>
-<script src="<?= base_url()?>plugins/fastclick/fastclick.js"></script>
-<script src="<?= base_url()?>dist/js/app.min.js"></script>
-<script src="<?= base_url()?>dist/js/demo.js"></script>
+
+
+<!-- jQuery 2.2.3 -->
+<script src="<?=base_url()?>plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="<?=base_url()?>bootstrap/js/bootstrap.min.js"></script>
+<!-- DataTables -->
+<script src="<?=base_url()?>plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="<?=base_url()?>plugins/datatables/dataTables.bootstrap.min.js"></script>
+<!-- SlimScroll -->
+<script src="<?=base_url()?>plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="<?=base_url()?>plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="<?=base_url()?>/dist/js/app.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?=base_url()?>dist/js/demo.js"></script>
+<!-- page script -->
 <script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+    });
+  });
+</script>
+
+<!--<script>
   $(function () {
 
     var areaChartCanvas = $("#areaChart").get(0).getContext("2d");
@@ -201,7 +227,7 @@
     barChartOptions.datasetFill = false;
     barChart.Bar(barChartData, barChartOptions);
   });
-</script>
+</script>-->
 
 <!--
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
