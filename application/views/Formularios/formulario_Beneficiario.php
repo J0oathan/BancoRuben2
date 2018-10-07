@@ -1,130 +1,106 @@
-
-  
 <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
+  
+    <section class="content">
+
+      <section class="content-header m-5">
       <h1>
-        Tabla registros
+        Beneficiario
         <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Tables</a></li>
-        <li class="active">Data tables</li>
+        <li><a href="#">Catalogo</a></li>
+        <li class="active">Beneficiario</li>
       </ol>
     </section>
-
-    <!-- Main content -->
-    <section class="content">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="box">
-            
-            <!-- /.box-header -->
-            <div class="box-body" id="div1">
-              <table id="example2" class="table table-bordered table-hover">
-                <thead>
-                <tr>
-                  <th>N factura</th>
-                  <th>Fecha</th>
-                  <th>Cita</th>
-                  <th>Cuenta</th>
-                  <th>Descripcion</th>
-                  <th>Cod</th>
-                  <th>Tipo</th>
-                  <th>Referencia</th>
-                  <th>Proyecto</th>
-                  <th>Cdo Cto</th>
-                  <th>Concepto</th>
-                  <th>Beneficiario</th>
-                  <th>Emisor</th>
-                  <th>Cargos</th>
-                  <th>Abono</th>
-                  <th>Saldo</th>
-                  <th>Folio</th>
-                  <th>Folio2</th>
-
-                </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
-                    <td>X</td>
-                    <td>X</td>
-                  </tr>
-                 <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
-                    <td>X</td>
-                    <td>X</td>
-                  </tr>
-               
-              </table>
-            </div>
-            <!-- /.box-body -->
+         <div class="row">
+          <br><br><br><br>
           </div>
-          <!-- /.box -->
 
-         
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
+                            <div class="row">
+
+                                  <div class="col-md-1 "></div>
+                                    <div class="col-md-10 ">
+                                                          
+                                      <form class="form-inline" action="registrar.php">
+                                            <div class="form-group">
+
+
+                                            <label for="exampleInputEmail1">Codigo beneficiario</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="N°">
+                                            </div>
+
+                                            
+
+                                            
+
+                                            <div class="form-group  mx-sm-5 mb-4">
+
+                                              <label for="exampleInputEmail1" style="padding-left:20px">USUARIO</label>
+                                              
+                                              <input type="text" class="form-control" id="inputPassword2" placeholder="Nombre">
+                                               
+                                              <input type="text" class="form-control" id="inputPassword2" placeholder="Apellido">
+                                             
+                                              
+                                            </div>
+                                            <br>
+                                            <div class="row"> &nbsp; </div>
+                                            <div class="form-group mx-sm-3 mb-2" >
+                                              
+                                             
+
+
+                                              <label for="exampleFormControlSelect1" style="padding-left:2px">Dirección</label>
+                                               <input type="text" class="form-control" id="inputPassword2" placeholder="colonia,calle,ciudad">
+                                              
+                                                
+                                              <label for="exampleFormControlSelect1" style="padding-left:20px">Telefono</label>
+                                               <input type="number" class="form-control" id="inputPassword2" placeholder="Inserta puro número">
+                                                
+                                              
+                                             
+
+
+                                             
+                                            </div>
+                                              <div class="row"> &nbsp; </div>
+                                              <div class="form-group mx-sm-3 mb-5">
+                                                <label for="exampleFormControlSelect1">Contacto</label>
+                                                   <input type="text" class="form-control" id="inputPassword2" placeholder="nombre">
+
+
+                                                  <label for="exampleFormControlSelect1" style="padding-left:28px">N° de cita</label>
+                                                   <input type="text" class="form-control" id="inputPassword2" placeholder="...">
+                                                <br>
+                                          </div>
+
+                                          <div class="row"> &nbsp; </div>
+                                              <div class="form-group mx-sm-3 mb-5">
+                                                <label for="exampleFormControlSelect1">Banco</label>
+                                                   <input type="password" class="form-control" id="inputPassword2" placeholder="Banco">
+
+
+                                                  <label for="exampleFormControlSelect1" style="padding-left:28px">Observaciones</label>
+                                                   <textarea type="textarea"  class="form-control" id="inputPassword2" placeholder="Describa"></textarea>
+                                                
+                                          </div>
+
+                                          <br>
+                                            <div class="row"> &nbsp; </div>
+                                            <button type="submit" class="btn btn-primary mb-2">Confirmar</button>
+                                        </form>
+                                      </div>
+                                    <div class="col-md-1 "></div>
+
+
+                     </div>
+     
     </section>
     <!-- /.content -->
   </div>
-  <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.8
-    </div>
-    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
-  </footer>
-
+ 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Create the tabs -->
@@ -319,16 +295,3 @@
        immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
 </div>
-
-
-
-<!--
-
-
-<script src="<?= base_url()?>plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="<?= base_url()?>plugins/datatables/dataTables.bootstrap.min.js"></script>
-<script src="<?= base_url()?>plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<script src="<?= base_url()?>plugins/fastclick/fastclick.js"></script>} 
--->
-
-<!-- page script -->

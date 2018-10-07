@@ -10,8 +10,8 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Tables</a></li>
-        <li class="active">Data tables</li>
+        <li><a href="#">Catalogo</a></li>
+        <li class="active">Acta de cuenta</li>
       </ol>
     </section>
          <div class="row">
@@ -45,12 +45,14 @@
                                              
                                               <input type="password" class="form-control" id="inputPassword2" placeholder="Proyecto">
                                             </div>
-                                            <div class="form-group mx-sm-3 mb-2">
+                                            <br>
+                                            <div class="row"> &nbsp; </div>
+                                            <div class="form-group mx-sm-3 mb-2" >
                                               
-                                             <div class="form-group">
-                                                <label for="exampleFormControlSelect1">Banco</label>
-                                                <select class="form-control" id="exampleFormControlSelect1">
-                                                  <option>Seleccionar...</option>
+                                             <div class="form-group pt-5" >
+                                                <label for="exampleFormControlSelect1" >Banco </label>
+                                                <select  class="form-control" id="exampleFormControlSelect1">
+                                                  <option >Seleccionar...</option>
                                                   <option>HSBC</option>
                                                   <option>Banamex</option>
                                                   <option>Bancomer</option>
@@ -62,13 +64,12 @@
                                                <input type="password" class="form-control" id="inputPassword2" placeholder="Cuenta">
                                               
                                                 
-                                              <label for="exampleFormControlSelect1" style="padding-left:20px">Clave</label>
-                                               <input type="password" class="form-control" id="inputPassword2" placeholder="Inserta clave">
+                                             
 
 
                                              
                                             </div>
-
+                                              <div class="row"> &nbsp; </div>
                                               <div class="form-group mx-sm-3 mb-5">
                                                 <label for="exampleFormControlSelect1">Clave</label>
                                                    <input type="password" class="form-control" id="inputPassword2" placeholder="Inserta clave">
@@ -80,7 +81,8 @@
                                           </div>
 
                                           <br>
-                                            <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+                                            <div class="row"> &nbsp; </div>
+                                            <button type="submit" class="btn btn-primary mb-2">Confirmar</button>
                                         </form>
                                       </div>
                                     <div class="col-md-1 "></div>

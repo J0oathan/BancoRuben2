@@ -39,5 +39,47 @@ class Welcome extends CI_Controller {
 		$this->load->view('Pie');
 	}
 
+	public function form_Tipo()
+	{	
+
+		$this->load->view('Head');
+		$this->load->view('nav');
+		$this->load->view('navegacion');
+		$this->load->view('Formularios/formulario_Tipo');
+		$this->load->view('Pie');
+	}
+
+
+	public function form_Proyecto()
+	{	
+
+		$this->load->view('Head');
+		$this->load->view('nav');
+		$this->load->view('navegacion');
+		$this->load->view('Formularios/formulario_Proyecto');
+		$this->load->view('Pie');
+	}
+
+	public function form_Concepto()
+	{	
+
+		$this->load->view('Head');
+		$this->load->view('nav');
+		$this->load->view('navegacion');
+		$this->load->view('Formularios/formulario_Concepto');
+		$this->load->view('Pie');
+	}
+
+
+	public function form_Beneficiario()
+	{	
+
+		$this->load->view('Head');
+		$this->load->view('nav');
+		$this->load->view('navegacion');
+		$this->load->view('Formularios/formulario_Beneficiario');
+		$this->load->view('Pie');
+	}
+
 	
 }

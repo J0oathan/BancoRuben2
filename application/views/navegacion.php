@@ -35,11 +35,11 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i>Cuentas</a></li>
-            <li><a href="../layout/boxed.html"><i class="fa fa-circle-o"></i>Tipos</a></li>
-            <li><a href="../layout/fixed.html"><i class="fa fa-circle-o"></i>Proyectos</a></li>
-            <li><a href="../layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i>Conceptos</a></li>
-            <li><a href="../layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i>Benificiario</a></li>
+            <li><a href="<?= base_url()?>index.php/Welcome/form_Cuentas"><i class="fa fa-circle-o"></i>Cuentas</a></li>
+            <li><a href="<?= base_url()?>index.php/Welcome/form_Tipo"><i class="fa fa-circle-o"></i>Tipos</a></li>
+            <li><a href="<?= base_url()?>index.php/Welcome/form_Proyecto"><i class="fa fa-circle-o"></i>Proyectos</a></li>
+            <li><a href="<?= base_url()?>index.php/Welcome/form_Concepto"><i class="fa fa-circle-o"></i>Conceptos</a></li>
+            <li><a href="<?= base_url()?>index.php/Welcome/form_Beneficiario"><i class="fa fa-circle-o"></i>Benificiario</a></li>
           </ul>
         </li>
        
