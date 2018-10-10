@@ -29,6 +29,12 @@ class Welcome extends CI_Controller {
 	}
 
 
+ 			public function holaa()
+ 			{
+ 				$this->load->database();
+ 				$this->load->view('holaa');
+ 			}
+
 	public function form_Cuentas()
 	{	
 

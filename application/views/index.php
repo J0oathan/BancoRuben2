@@ -49,28 +49,25 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
+                    <td>10202</td>
+                    <td>13-02-2013
                     </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
+                    <td>7490-8812</td>
+                    <td>7490 Inverlat Pubela,8812 bancomer</td>
+                    <td>xd xd</td>
+                    <td>201</td>
+                    <td>Cheque</td>
+                    <td>----
                     </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
+                    <td>1202</td>
+                    <td> 102</td>
+                    <td>Coatza las animas</td>
+                    <td>Mano de obra</td>
+                    <td>cod</td>
+                    <td>Pedro
                     </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
+                    <td>200</td>
+                    <td> 200</td>
                     <td>X</td>
                     <td>X</td>
                   </tr>

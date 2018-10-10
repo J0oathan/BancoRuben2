@@ -39,7 +39,7 @@
 
                                               <label for="exampleInputEmail1" style="padding-left:20px">Descripción de proyecto</label>
                                               
-                                              <input type="textare" class="form-control" id="inputPassword2" placeholder="Describa..">
+                                              <textarea type="text" class="form-control" id="inputPassword2" placeholder="Describa.."></textarea>
                                                
                                              
                                             </div>
